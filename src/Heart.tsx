@@ -1,4 +1,6 @@
 import "./createHeart.css";
+import Video from "./video";
+
 function Heart() {
   const heart = document.createElement("div");
   heart.classList.add("heart");
@@ -15,10 +17,11 @@ function Heart() {
   }, 5000);
   return (
     <div>
-      <h1>Click my heart</h1>
+      <Video />
+      {/* <h1>Click my heart</h1>
       <a href="https://github.com/amousuqt/video">
         <img src="https://i.ibb.co/VxxhYth/heart-removebg-preview.png" />
-      </a>
+      </a> */}
     </div>
   );
 }
